@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #A4C2A5;
+    color: #F1F2EB;
+}
+.navBar{
+    height: 100px;
+    width: 100%;
+    background-color:#566246; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navBar input{
+    width: 400px;
+    height: 30px;
+    background-color: #F1F2EB;
+    color:#4A4A48;
+    font-size: larger;
+    margin-left: 20px;
+    padding-left: 5px;
+}
+.navBar select{
+    width: 130px;
+    height: 30px;
+    color:#F1F2EB;
+    background-color: #4A4A48;
+}
+.navBar select option{
+    background-color: #4A4A48;
+}
+.navBar h1{
+    display: inline;
+    background: none;
+    font-size: 50px;
+}
+button{
+    width: 130px;
+    height: 30px;
+    color:#4A4A48;
+    background-color: #F1F2EB;
+}
+.result{
+    margin-top: 200px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.result h1{
+    height: 50px;
+    width: 300px;
+    border:1px solid #F1F2EB;
+    background-color: #4A4A48;
+}
